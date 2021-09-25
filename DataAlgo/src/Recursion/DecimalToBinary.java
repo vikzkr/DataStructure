@@ -5,7 +5,7 @@ package Recursion;
 
 public class DecimalToBinary {
 	public static void main(String[] args) {
-		System.out.println(	decimalTOBinary(13));
+		System.out.println(decimalTOBinary(13));
 	}
 	private static int decimalTOBinary(int i) {
 		if(i==0)
