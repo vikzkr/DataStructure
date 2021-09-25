@@ -1,13 +1,13 @@
 package Recursion;
-
+/*
+@Author Vikas
+*/
 public class powerOfNumber {
-	
 	
 	public static void main(String[] args) {
 		
 		System.out.println(powerofNumber(2,3));
 	}
-
 	private static int powerofNumber(int i, int j) {
 		
 		if(j==0)
@@ -16,5 +16,4 @@ public class powerOfNumber {
 		}
 	return i* powerofNumber(i, j-1);	
 	}
-
 }
