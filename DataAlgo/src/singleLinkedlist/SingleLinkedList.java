@@ -1,4 +1,4 @@
-package com.singleLinkedlist;
+package singleLinkedlist;
 /*
 @Author Vikas
 */
