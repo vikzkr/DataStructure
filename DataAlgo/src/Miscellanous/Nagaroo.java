@@ -2,7 +2,7 @@ package Miscellanous;
 
 import java.util.stream.IntStream;
 
-public class nararoo {
+public class Nagaroo {
 	
 	public static void main(String[] args) {
 		
