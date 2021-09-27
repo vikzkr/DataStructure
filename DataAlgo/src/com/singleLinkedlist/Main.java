@@ -1,4 +1,4 @@
-package com.LinkedList.singleLinkedlist;
+package com.singleLinkedlist;
 
 public class Main {
 	
