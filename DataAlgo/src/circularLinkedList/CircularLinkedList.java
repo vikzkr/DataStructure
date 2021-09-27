@@ -96,7 +96,7 @@ public class CircularLinkedList
 		{
 					if(head==null)
 					{
-						 System.out.println("The CSLL does not exist! ");
+						 System.out.println("The CircularLinkedList does not exist! ");
 					      return;
 					}
 					else if(location ==0)

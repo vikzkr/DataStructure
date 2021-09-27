@@ -1,9 +1,9 @@
-package circularLinkedList;
+package DoubleLinkedList;
 
 public class Node {
 	
 	public int data;
-	public Node next;
 	public Node prev;
+	public Node next;
 
 }
