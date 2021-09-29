@@ -8,6 +8,11 @@ public class QueueMain {
 		 queue.enQueue(2);
 		 queue.enQueue(3);
 		 queue.enQueue(4);
+		int val= queue.deQueue();
+		System.out.println(val);
+		int val2= queue.deQueue();
+		System.out.println(val2);
+		
 		 
 	}
 
