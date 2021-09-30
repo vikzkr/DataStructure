@@ -70,6 +70,46 @@ public class BinaryTreeUsingLinkedList {
 				}
 			}
 			
+
+			
+		}
+		
+		//height of tree
+		public int height()
+		{
+			Queue<BinaryNode> queue = new LinkedList<BinaryNode>();
+			queue.add(root);
+			
+			int height=-1;
+			while(true)
+			{
+				int size= queue.size();
+				if(size==0)
+				{
+					break;
+				}
+				height= height+1;
+				while(size>0)
+				{
+					BinaryNode node= queue.remove();
+					if(node.left!=null)
+					{
+						queue.add(node.left);
+					}
+					
+					if(node.right!=null)
+					{
+						queue.add(node.right);
+					}
+					size--;
+					
+				}
+				
+			}
+			
+			
+			return height;
+			
 		}
 		
 		//searching value in queue
