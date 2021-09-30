@@ -25,7 +25,7 @@ public class BinaryMain {
 		System.out.println("get deepest Node "+bt.GetDeepestNode().value);
 		// bt.deleteDeepestNode();
 		System.out.println("");
-		bt.deleteNode("N6");
+		bt.deleteNode("N7");
 		System.out.println("");
 		System.out.println("");
 		bt.levelOrder();
