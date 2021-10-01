@@ -145,7 +145,7 @@ public class BinarySearchTreeImpl {
 		{
 			if(node==null)
 			{
-				System.out.println("data present in bst");
+				System.out.println("data not  present in bst");
 				return null;
 			}
 			else if(node.data==val)
