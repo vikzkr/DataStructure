@@ -15,7 +15,7 @@ public class BinarySearchTreeMain {
 		bst.insert(40);
 		bst.preOrder(bst.root);
 		bst.deleteNode(bst.root, 90);
-		System.out.println("");
+		System.out.println("bst"+bst.root.data);
 		bst.levelOrder();
 		
 	}

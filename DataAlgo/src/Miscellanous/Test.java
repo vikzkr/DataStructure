@@ -6,9 +6,9 @@ public class Test {
 		System.out.println("Object");
 	}
 
-//	public void foo(String s) {
-//		System.out.println("String");
-//	}
+	public void foo(String s) {
+		System.out.println("String");
+	}
 	
 	public void foo(Integer s) {
 		System.out.println("Integer");
@@ -17,6 +17,7 @@ public class Test {
 		//new Test().foo(null);
 		
 		Test obj= new Test();
+		//obj.foo(null);
 		System.out.println(obj.val);
 	}
 
